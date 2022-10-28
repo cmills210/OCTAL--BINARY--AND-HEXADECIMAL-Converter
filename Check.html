@@ -1,0 +1,23 @@
+
+<html>
+    <head>
+        <link rel = "stylesheet" href="styles.css">
+        <h1>Choose a base</h1>
+        <label for="numbers">Choose a checker</label>
+        <select number="numbers" id="numbers">
+            <option>Binary</option>
+            <option>Octal</option>
+            <option>Hexadecimal</option>
+            
+        </select>
+        
+    </head>
+    <body>
+        <h1>Enter a number</h1>
+        <input type="text" id="myNum">
+        <button onclick = "getDecimal()">Check Number</button>
+        <h2 id="solution" style="color:blue;"></h2>
+        <h3 id="calculation" style="color:blue;"></h3>
+        <script src = "check.js"></script>
+    </body>
+</html>
